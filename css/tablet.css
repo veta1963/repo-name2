@@ -1,0 +1,231 @@
+@media (min-width: 641px) and (max-width: 1199px) {
+    .main {
+        display: flex;
+       
+    } 
+    .hamburger {  
+         
+      top: 7vw;
+      margin-left: 94%;
+    }
+
+    .hamburger, 
+    .hamburger::before, 
+    .hamburger::after {
+      width: 3vw;
+      height: 0.4vw;
+    }
+
+    .hamburger::before{
+      top: 1vw;
+    }
+
+    .hamburger::after {
+      top: 2vw;
+    }
+    .popup {
+      top: 0;
+      right: 0;
+      margin-top: 23vh;
+      margin-left: 25vw;
+      margin-right: 25vw;
+      
+      width: 45vw;
+      height: 60rem;
+    }
+    .x {           
+      margin-top: -32px
+    }
+    #title-hidden {
+      font-size: 1.6rem;
+    }
+    .header-general {
+      width: 100vw;
+      height: 52vw; 
+    }
+
+    .header {                    
+      background: url("../images/banner-bg-tablet.jpg");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+    }
+    
+    .logo-header {
+      position: relative;  
+      left: 0;
+      width: 22vw;
+    }     
+    
+    .header-logo-title {
+        width: 95%;
+        margin-top: 5vw;
+    }      
+
+    .header-menu-title {
+      display: flex;        
+    }
+
+    .menu-list {
+       display: flex;        
+    }
+
+    .header-title {        
+        width: 95%;
+        margin-top: 12vw;
+        
+        font-size: 5.25vw;        
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;   
+    }
+    .card {
+      width: 49.6%; 
+      height: 245px;     
+    }
+    .card:nth-child(2n+1) {
+      margin-right: 0.8%;
+    }
+    .card-body {
+      width: 90%;
+      padding: 3.5rem 3rem;
+      margin: 2vw;
+      
+    }
+    .title {
+      margin-top: 6vw;            
+      font-size: 2.05rem;    
+    }
+    .card-titles {
+      margin: 0;
+      font-size: 1.4rem;
+    }
+    .card-subtitle {
+      font-size: 1.7rem;
+    }
+    .now {
+      font-size: 1.8rem;
+    }
+    .main-news {  
+      margin: 7vw  4.17vw; 
+    }
+    .section-news { 
+        width: 51vw;
+      }
+      
+      .pic-news {
+        width: 51vw;
+      }
+
+      .pic-news-wrapper {
+        width: 51vw;
+        height: 35vw;
+      }
+      .section-news-content {
+        margin-top: 5vw;
+      }
+      .strip {
+        width: 51vw;
+       
+        margin-top: 5vmin;
+       
+      }
+
+      .aside {
+        width: 40vw;
+        margin-top: 0;
+        
+      }
+      .section-title {
+        width: 35vw;        
+      }
+    
+      .form-find {       
+        margin-top: 8vw;
+      }
+
+      .field {
+        width: 30vw;
+      }
+
+      .button-find {
+        width: 7vw;
+      }
+      .form-email {
+        margin: 0;
+        padding: 2vw 0;
+      }
+      .field-email {
+        width: 37vw;
+        margin-bottom: 2vw;
+      }
+
+      
+      .button-email {
+        width: 37vw;
+       margin: 0;
+      }
+
+      .topic-point::before {        
+        width: 35vw;
+      }
+      
+      .products {
+        display: flex;
+        flex-wrap: wrap;
+       
+        margin-left: 2rem;                
+      }
+      
+    .product-card {
+      display: flex;
+      flex-wrap: wrap; 
+      
+      margin: 0 0 3vw 0;
+      width: 50%;  
+      
+
+    }
+      .product {
+        height: 30vw;
+        width: 40vw;
+        margin: 3vw 5vw 0;
+      }
+      
+      .product-body {  
+        height: 55%;            
+        width: 48vw;
+        margin: -5vw 1vw 0 1vw;
+        padding: 6vw 2rem 3rem;  
+      }
+      .text {
+        margin-top: 0;
+        padding: 0;
+        font-size: 1.5rem;
+      }
+     .caption {    
+      font-size: 1.4rem;
+     }
+     .tag {
+      font-size: 1.2rem;
+     }
+      .subtitle {
+        margin-bottom: 1vw;
+        font-size: 1.7rem;
+      }
+      .button {
+        width: 18vw;
+      }
+      .footer-address {  
+        height: 8rem;
+      }
+      .social-network-icon {
+        width: 2rem;
+        height: 2rem;
+      }
+      .copyright {
+        margin-bottom: 5%;
+        font-size: 1.2rem;
+      }
+}
